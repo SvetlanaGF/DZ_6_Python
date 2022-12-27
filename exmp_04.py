@@ -11,7 +11,7 @@ def sum_numbers(list_num):
         numbers = [int(digit) for digit in numbers]
         sum_digit = sum(numbers)
         if sum_digit % 2 == 0:
-            even_sum.append(list_num[i])
+            even_sum.append((list_num[i]))
     return even_sum
 
 list_numbers = [random.randint(1,100) for i in range(1,10)]
